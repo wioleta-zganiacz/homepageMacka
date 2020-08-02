@@ -1,0 +1,18 @@
+body{
+    background:lightgrey;
+}
+section {
+    background: white;
+}
+
+h1 {
+    color:blue;
+}
+
+p {
+    color:grey;
+}
+
+h2{
+    color:blueviolet;
+}
