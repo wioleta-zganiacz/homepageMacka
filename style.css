@@ -1,18 +1,18 @@
-body{
-    background:lightgrey;
+body {
+  background: lightgrey;
 }
 section {
-    background: white;
+  background: white;
 }
 
 h1 {
-    color:blue;
+  color: blue;
 }
 
 p {
-    color:blue;
+  color: blue;
 }
 
-h2{
-    color:blueviolet;
+h2 {
+  color: blueviolet;
 }
