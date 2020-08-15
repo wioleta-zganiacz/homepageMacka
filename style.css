@@ -16,3 +16,39 @@ p {
 h2 {
   color: blueviolet;
 }
+
+.header-link {
+  color: green;
+}
+
+.navigation {
+  background: lightgreen;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.navigation__link {
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation__link--homepage {
+  background: red;
+  color: black;
+}
+
+.week-summary {
+  padding: 16px;
+  border: 1px #ccc solid;
+  margin-bottom:  16px;;
+}
+
+.week-summary__description {
+  color: lightgreen;
+}
+
+.week-summary__title {
+  color: green;
+}
+
