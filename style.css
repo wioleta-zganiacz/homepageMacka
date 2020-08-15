@@ -1,20 +1,20 @@
 body {
-  background: lightgrey;
+  background: #fefae0;
 }
 section {
   background: white;
 }
 
 h1 {
-  color: blue;
+  color: #BC6C25;
 }
 
 p {
-  color: blue;
+  color: #dda15e;
 }
 
 h2 {
-  color: blueviolet;
+  color: #BC6C25;
 }
 
 .header-link {
@@ -22,7 +22,7 @@ h2 {
 }
 
 .navigation {
-  background: lightgreen;
+  background: #606C38;
   padding: 16px;
   border-radius: 8px;
 }
@@ -50,5 +50,22 @@ h2 {
 
 .week-summary__title {
   color: green;
+}
+
+.main {
+  display:inline-block;
+  text-align:center;
+}
+
+.paragraphs__headers {
+  color:#606C38;
+}
+
+.article__description {
+  color: #081c15;
+}
+
+.footer {
+  text-align: center;
 }
 
