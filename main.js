@@ -5,6 +5,6 @@ console.log(
   `Hej cieszę się,że zagościłeś na mojej stronie. Nazywam się ${firstName} i mam ${age} lata.`
 );
 
-const heading = document.querySelector('main-heading--js');
+const heading = document.querySelector('main__heading--js');
 
 console.log(heading);

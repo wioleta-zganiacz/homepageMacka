@@ -12,27 +12,27 @@
     <header class="header">
         <nav class="navigation">
         <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
-        <a class="navigation__link" href="nauka-html.html">Dziennik</a>
+        <a class="navigation__link navigation__link--dziennik" href="nauka-html.html">Dziennik</a>
     </nav>
         </header>
     </header>
     <main class="main">
-        <header id="top">
-            <h1 class="main-heading main-heading--js" id="name">Strona domowa - WTF Co ten Frontend</h1>
+        <header class=" main__header" id="top">
+            <h1 class="main__heading main__heading--js" id="name">Strona domowa - WTF Co ten Frontend</h1>
         </header>
 
 
-        <section>
-            <h2>Kim jestem?</h2>
-            <img src="korsan-header.jpg" alt="Uśmiechnięty Korsan">
-           <p>Hej! Mam na imie Maciek Korsan. Na codzień uczę wspaniałych ludzi <em>tajnej sztuki</em> frontendu i pracuję w firmie 
-            o ciężko zapisywalnej nazwie: EYEDEA. Prowadzę szkolenie <a href="https://cotenfrontend.pl">WTF</a><br/>
+        <section class="about">
+            <h2 class="about__heading">Kim jestem?</h2>
+            <img class="about__picture" src="korsan-header.jpg" alt="Uśmiechnięty Korsan">
+           <p class="about-_description">Hej! Mam na imie Maciek Korsan. Na codzień uczę wspaniałych ludzi <em>tajnej sztuki</em> frontendu i pracuję w firmie 
+            o ciężko zapisywalnej nazwie: EYEDEA. Prowadzę szkolenie <a class="about__link" href="https://cotenfrontend.pl">WTF</a><br/>
             Pozatym bardzo <b>lubię robić zdjęcia i latać dronem</b>. Witam Cię na mojej stronie domowej, mam
-            nadzieję,że znajdziesz tu trochę przydatnych rzeczy.<a href="notatki">Przejdź do notatek</a></p> 
+            nadzieję,że znajdziesz tu trochę przydatnych rzeczy.<a class="about__link" href="notatki">Przejdź do notatek</a></p> 
         </section>
 
-        <section id="notatki">
-            <h2 class="special-heading">Notatki z WTF: Co ten frontend</h2>
+        <section class= "notes" id="notatki">
+            <h2 class="notes__heading">Notatki z WTF: Co ten frontend</h2>
 
             <article class="week-summary">
                 <h3 class="week-summary__title">Jak stworzyć prawidłowego HTML-a?</h3>
@@ -52,7 +52,7 @@
     </main>
     <footer class="footer">
         Strona domowa Maćka Korsana, wszystkie treści są efektem tworzenia szkolenia WTF: Co ten frontend.
-    <a href="#top">Wróć na górę strony</a></footer>
+    <a class="footer__link" href="#top">Wróć na górę strony</a></footer>
       <script src="main.js"> </script>
     
 
