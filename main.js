@@ -12,3 +12,12 @@ heading.innerHTML = `Witaj Drogi odwiedzający, nazwyam się ${firstName} i mam 
 const emptyParagraph = document.querySelector('.week-summary__description--js');
 
 emptyParagraph.innerHTML = `Nawet uzuepłniłem treść JSem, WOW!`;
+
+function greet(age, firstName) {
+  console.log(
+    `Witaj Drogi odwiedzający, nazywam się ${firstName} i mam ${age} lata.`
+  );
+}
+
+
+greet(age, firstName)
