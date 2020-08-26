@@ -23,4 +23,29 @@ function createContent(querySelectorContent, content) {
 
 }
 
-createContent(`.week-summary__description--js`, `Witaj świecie!`);
+function helloWorld() {
+  console.log(`Witaj świecie`)
+}
+
+helloWorld();
+
+createContent(`.week-summary__description--js`, `Witaj świecie!`); 
+
+
+const deathStar = {
+  diameter: 120000,
+  fire: (target) => {
+    console.log(`${target} destroyed`)
+  },
+  isOperating: true,
+  levels: 357,
+  name: `Death Star`,
+  population: 10000,
+  isLightOn: true,
+  commander: {
+    name: `Darth Vader`,
+    age: 44,
+  }
+}
+
+deathStar.fire(`Rebel ship`)
