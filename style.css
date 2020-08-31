@@ -108,3 +108,7 @@ color: #1460aa;
 .list {
   list-style: square;
 }
+
+.table {
+  width: 100%;
+}
