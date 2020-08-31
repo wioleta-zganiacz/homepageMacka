@@ -62,7 +62,7 @@ const humanOne = {
 const humanTwo = {
   name: `Stefan`,
   age: humanOne.age,
-  address: humanOne.address,
+  address:  humanOne.address,
 };
 
 console.log(humanOne);
