@@ -7,7 +7,7 @@ console.log(
 
 const heading = document.querySelector('.main__heading--js');
 
-heading.innerHTML = `Witaj Drogi odwiedzający, nazwyam się ${firstName} i mam ${age} lata.`;
+heading.innerHTML = `Witaj Drogi odwiedzający, nazywam się ${firstName} i mam ${age} lata.`;
 
 
 

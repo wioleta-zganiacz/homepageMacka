@@ -7,8 +7,13 @@ html {
 }
 
 body {
-  background: #fefae0;
+background-color: #68667b;
+background-image: linear-gradient(90deg, #68667b 0%, #9fadae 100%);
+
+
+  
 }
+
 section {
   background: white;
 }
@@ -26,14 +31,19 @@ h2 {
   color: #BC6C25;
 }
 
+
+
 .header-link {
-  color: green;
+  color: pink;
 }
 
 .navigation {
-  background: #606C38;
+  background:linear-gradient(to right, #8e9eab 0%, #eef2f3 51%, #8e9eab 100%);
   padding: 16px;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;  
+  
 }
 
 .navigation__link {
@@ -43,13 +53,23 @@ h2 {
 }
 
 .navigation__link--homepage {
-  background: lightgreen;
-  color: black;
+  background: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  align-items: center;
+  color: white;
 }
 
 .navigation__link--dziennik {
-  background: lightgreen;
-  color: black;
+  background: linear-gradient( 109.6deg,  rgba(48,207,208,1) 11.2%, rgba(51,8,103,1) 92.5% );
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  align-items: center;
+  color: white;
 }
 
 .week-summary {
@@ -59,11 +79,11 @@ h2 {
 }
 
 .week-summary__description {
-  color: lightgreen;
+  color: rgb(139, 94, 26);
 }
 
 .week-summary__title {
-  color: green;
+  color: rgba(10, 10, 10, 0.932);
 }
 
 .main {
@@ -72,8 +92,9 @@ margin: 0 auto;
 }
 
 .main__heading {
-  color:red;
-}
+ color: rgb(41, 25, 100);
+
+
 
 .about {
 
