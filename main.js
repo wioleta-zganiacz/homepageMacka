@@ -1,13 +1,13 @@
 const firstName = "Maciek";
 const age = 32;
 
-console.log(
-  `Hej cieszę się,że zagościłeś na mojej stronie. Nazywam się ${firstName} i mam ${age} lata.`
-);
+//console.log(
+ // `Hej cieszę się,że zagościłeś na mojej stronie. Nazywam się ${firstName} i mam ${age} lata.`
+//);
 
-const heading = document.querySelector('.main__heading--js');
+//const heading = document.querySelector('.main__heading--js');
 
-heading.innerHTML = `Witaj Drogi odwiedzający, nazywam się ${firstName} i mam ${age} lata.`;
+//heading.innerHTML = `Witaj Drogi odwiedzający, nazywam się ${firstName} i mam ${age} lata.`;
 
 
 
@@ -155,3 +155,14 @@ console.log(result);
 
 const result2 = ( humanOne.age > humanTwo.age) ? age : false;
 console.log(result2);
+
+const button = document.querySelector('.action--js');
+console.log(button)
+
+const myClick = () => {
+  const heading = document.querySelector('.main__heading--js');
+  heading.innerHTML = `Witaj Drogi odwiedzający, nazywam się Maciek`;
+
+}
+
+button.addEventListener('click' , myClick);
